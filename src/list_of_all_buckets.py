@@ -2,8 +2,8 @@ import boto3
 
 # Create a session with AWS credentials
 session = boto3.Session(
-    aws_access_key_id='AKIAVC3ZYDBG5UCTBKGH',
-    aws_secret_access_key='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'
+    aws_access_key_id='aws_access_key_id',
+    aws_secret_access_key='aws_secret_access_key'
 )
 
 # Create an S3 resource using the session
